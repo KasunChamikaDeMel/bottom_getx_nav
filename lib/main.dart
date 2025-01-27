@@ -28,7 +28,6 @@ class BottomNavScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     final NavController navController = Get.put(NavController());
 
-    // List of screens
     final List<Widget> screens = [
       const HomeScreen(),
       const ProfileScreen(),
